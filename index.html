@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>かまた祭ナビ 2026 | 彩縁を楽しもう</title>
+<style>
+:root{--ink:#20243a;--muted:#6f7488;--paper:#f7f6fb;--white:#fff;--purple:#6741d9;--purple2:#8b5cf6;--pink:#ff7b9c;--yellow:#ffd166;--mint:#b7f0df;--line:#e9e6f2;--shadow:0 14px 40px rgba(45,31,92,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.6}
+button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}
+.wrap{max-width:1160px;margin:auto;padding:0 22px}.topbar{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.01em}.brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--purple),var(--pink));display:grid;place-items:center;color:#fff;font-size:21px;box-shadow:0 6px 16px #6741d933}.brand small{display:block;font-size:10px;color:var(--muted);letter-spacing:.13em}.navlinks{display:flex;gap:6px;flex-wrap:wrap}.navlinks button{border:0;background:transparent;color:var(--muted);padding:10px 12px;border-radius:12px;font-weight:700}.navlinks button.active,.navlinks button:hover{background:#f0eaff;color:var(--purple)}.saved-pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 13px;font-weight:800;color:var(--purple)}
+.hero{padding:40px 0 26px}.hero-card{position:relative;overflow:hidden;border-radius:30px;background:linear-gradient(118deg,#37216f 0%,#6741d9 55%,#b64b91 100%);color:white;padding:42px;box-shadow:var(--shadow)}.hero-card:before,.hero-card:after{content:"";position:absolute;border-radius:50%;pointer-events:none}.hero-card:before{width:330px;height:330px;right:-60px;top:-130px;background:#ffffff13}.hero-card:after{width:220px;height:220px;right:170px;bottom:-160px;background:#ffd16625}.hero-inner{position:relative;z-index:1;max-width:720px}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:#e7dfff}.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.16;letter-spacing:-.04em;margin:12px 0 14px}.hero p{max-width:620px;color:#f1ebff;margin:0 0 24px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:14px;padding:12px 17px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.18s}.btn:hover{transform:translateY(-1px)}.btn-light{background:white;color:#4b2ca3}.btn-glass{background:#ffffff19;color:white;border:1px solid #ffffff50}.btn-primary{background:var(--purple);color:#fff}.btn-soft{background:#f1ebff;color:var(--purple)}.btn-outline{background:#fff;border:1px solid var(--line);color:var(--ink)}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.fact{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 20px;box-shadow:0 5px 20px #291d5410}.fact .kicker{color:var(--muted);font-size:12px;font-weight:800}.fact strong{display:block;font-size:19px;margin:5px 0}.fact span{font-size:12px;color:var(--muted)}.section{padding:28px 0 18px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}.section-head h2{margin:0;font-size:25px;letter-spacing:-.03em}.section-head p{margin:5px 0 0;color:var(--muted);font-size:14px}.count{font-size:12px;color:var(--muted);font-weight:800}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.chip{border:1px solid var(--line);background:#fff;color:var(--muted);padding:9px 14px;border-radius:999px;font-size:13px;font-weight:800}.chip.active{background:var(--purple);border-color:var(--purple);color:white}.filters{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 18px}.field{background:white;border:1px solid var(--line);border-radius:13px;padding:11px 13px;color:var(--ink);min-height:44px}.search{flex:1;min-width:220px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{background:white;border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 5px 20px #291d5408;display:flex;flex-direction:column;min-height:210px}.card-top{display:flex;align-items:center;justify-content:space-between;gap:10px}.emoji{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:#f2edff;font-size:23px}.tag{font-size:11px;font-weight:850;padding:5px 9px;border-radius:999px;background:#f2edff;color:var(--purple)}.tag.food{background:#fff1e8;color:#a34b15}.tag.event{background:#e9f9f3;color:#18765a}.card h3{font-size:17px;line-height:1.35;margin:13px 0 7px}.card p{font-size:13px;color:var(--muted);margin:0 0 12px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:12px;color:var(--muted);font-size:12px}.meta span{background:#f8f7fb;padding:5px 8px;border-radius:8px}.card-actions{display:flex;gap:8px;margin-top:13px}.card-actions button{flex:1}.heart{border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px 12px;font-weight:800;color:#b53b71}.heart.saved{background:#fff0f5;border-color:#ffc4d6}.empty{padding:36px;text-align:center;background:#fff;border:1px dashed #d8d1e8;border-radius:20px;color:var(--muted);grid-column:1/-1}.two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.panel h3{margin:0 0 12px;font-size:18px}.timeline{display:grid;gap:10px}.time-row{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:12px;border-radius:14px;background:#faf9fd}.time{font-weight:900;color:var(--purple);font-size:13px}.time-row strong{display:block;font-size:14px}.time-row small{color:var(--muted)}.notice{padding:13px 15px;border-radius:14px;background:#fff8e7;color:#74510b;font-size:13px;margin-top:12px}.checklist{display:grid;gap:10px}.checkline{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.checkline input{accent-color:var(--purple);margin-top:5px;width:17px;height:17px}.progress{height:7px;background:#eee9f7;border-radius:999px;overflow:hidden;margin:10px 0 14px}.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--purple),var(--pink));transition:width .2s}.footer{margin-top:42px;padding:26px 0 38px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer a{color:var(--purple);font-weight:800}.page{display:none}.page.active{display:block}.source-note{font-size:12px;color:var(--muted);margin-top:12px}.hidden{display:none!important}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.two-col{grid-template-columns:1fr}.hero-card{padding:30px}.nav{height:auto;min-height:72px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}.navlinks{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap}.facts{grid-template-columns:1fr}.fact{padding:14px 17px}}
+@media(max-width:560px){.wrap{padding:0 14px}.grid{grid-template-columns:1fr}.hero-card{padding:25px 22px;border-radius:22px}.hero h1{font-size:34px}.section-head{align-items:start;flex-direction:column}.saved-pill{margin-left:auto}.card{min-height:auto}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+  <div class="brand"><div class="brand-mark">彩</div><div>かまた祭ナビ 2026<small>SAIEN • FESTIVAL GUIDE</small></div></div>
+  <nav class="navlinks" aria-label="メインメニュー">
+    <button class="active" data-page="home">ホーム</button><button data-page="food">売店・グルメ</button><button data-page="events">イベント</button><button data-page="plan">マイプラン</button>
+  </nav>
+  <button class="saved-pill" data-page="plan">♡ 保存 <span id="savedCount">0</span></button>
+</div></header>
+<main class="wrap">
+<section id="home" class="page active">
+  <div class="hero"><div class="hero-card"><div class="hero-inner">
+    <div class="eyebrow">第59回 • 日本工学院 蒲田キャンパス</div>
+    <h1>彩りと出会いを、<br>ひとつずつ。</h1>
+    <p>食べたいもの、見たいイベント、体験したいこと。気になる企画を探して、自分だけの「かまた祭プラン」を作ろう。</p>
+    <div class="hero-actions"><button class="btn btn-light" data-page="events">イベントを探す ↗</button><button class="btn btn-glass" data-page="food">売店・グルメを見る</button></div>
+  </div></div>
+  <div class="facts">
+    <div class="fact"><div class="kicker">DAY 1</div><strong>10/31（土） 11:00–17:00</strong><span>ハロウィン当日 🎃</span></div>
+    <div class="fact"><div class="kicker">DAY 2</div><strong>11/1（日） 10:00–16:00</strong><span>2日目も企画が盛りだくさん</span></div>
+    <div class="fact"><div class="kicker">THEME</div><strong>彩縁（さいえん）</strong><span>個性の彩りと、人とのつながり</span></div>
+  </div></div>
+  <section class="section"><div class="section-head"><div><h2>今年の注目ポイント</h2><p>公式サイトに掲載された企画からピックアップ</p></div><button class="btn btn-outline" data-page="events">イベント一覧 →</button></div>
+    <div class="grid" id="featuredEvents"></div>
+  </section>
+  <section class="section"><div class="section-head"><div><h2>お腹がすいたら</h2><p>価格・場所が公式ページに掲載されている売店をチェック</p></div><button class="btn btn-outline" data-page="food">全グルメを見る →</button></div>
+    <div class="grid" id="featuredFood"></div>
+  </section>
+</section>
+<section id="food" class="page">
+  <section class="section"><div class="section-head"><div><h2>売店・グルメ</h2><p>メニュー名、掲載価格、場所で選べます。予算フィルターも使えます。</p></div><div class="count" id="foodCount"></div></div>
+    <div class="filters"><input class="field search" id="foodSearch" placeholder="🔎 店名・メニュー・場所で検索" aria-label="売店を検索"><select class="field" id="foodCategory"><option value="all">すべてのカテゴリ</option><option value="ご飯・麺類">ご飯・麺類</option><option value="スイーツ">スイーツ</option><option value="揚げ物">揚げ物</option><option value="飲み物">飲み物</option><option value="その他">その他</option></select><select class="field" id="foodBudget"><option value="all">予算：指定なし</option><option value="300">¥300以下</option><option value="500">¥500以下</option><option value="700">¥700以下</option></select></div>
+    <div class="grid" id="foodGrid"></div>
+    <p class="source-note">※掲載価格は公式サイトの表示をもとにしています。「価格未定」の商品や当日の変更があるため、購入前に売店でご確認ください。</p>
+  </section>
+</section>
+<section id="events" class="page">
+  <section class="section"><div class="section-head"><div><h2>イベントを探す</h2><p>日付・ジャンル・キーワードから、行きたい企画を見つけよう。</p></div><div class="count" id="eventCount"></div></div>
+    <div class="tabs" id="dayTabs"><button class="chip active" data-day="all">すべての日</button><button class="chip" data-day="10/31">10/31（土）</button><button class="chip" data-day="11/1">11/1（日）</button></div>
+    <div class="filters"><input class="field search" id="eventSearch" placeholder="🔎 企画名・会場・内容で検索" aria-label="イベントを検索"><select class="field" id="eventCategory"><option value="all">すべてのジャンル</option><option value="ステージ">ステージ</option><option value="体験">体験・ものづくり</option><option value="展示">展示・作品</option><option value="交流">交流・ゲーム</option><option value="特別企画">特別企画</option></select></div>
+    <div class="grid" id="eventGrid"></div>
+    <p class="source-note">※時間が公式タイムテーブルに明記されていない企画は、アプリ側で時間を推測していません。最新情報は公式サイトをご確認ください。</p>
+  </section>
+</section>
+<section id="plan" class="page">
+  <section class="section"><div class="section-head"><div><h2>マイプラン</h2><p>♡を押して保存した企画と、当日のチェックリストをまとめました。</p></div><button class="btn btn-outline" id="clearSaved">保存をリセット</button></div>
+    <div class="two-col"><div class="panel"><h3>♡ 保存した企画</h3><div class="grid" id="savedGrid" style="grid-template-columns:1fr 1fr"></div><p id="noSaved" class="source-note">まだ保存した企画はありません。売店やイベントの♡を押して追加できます。</p></div>
+      <div class="panel"><h3>🎒 当日のチェックリスト</h3><p style="color:var(--muted);font-size:13px;margin-top:-4px">準備の進み具合を確認できます。</p><div class="progress"><div id="progressBar"></div></div><div id="progressText" class="count">0 / 5 完了</div>
+        <div class="checklist" id="checklist">
+          <label class="checkline"><input type="checkbox"> 行きたい企画と時間を確認した</label>
+          <label class="checkline"><input type="checkbox"> 予算を決めた（現金も用意）</label>
+          <label class="checkline"><input type="checkbox"> スマートフォンを充電した</label>
+          <label class="checkline"><input type="checkbox"> 友だちとの集合場所を決めた</label>
+          <label class="checkline"><input type="checkbox"> 公式サイトで最新情報を確認した</label>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<section class="section" id="officialLinks"><div class="panel"><div class="section-head"><div><h2>公式情報・アクセス</h2><p>会場マップや変更情報は、公式サイトで最新の内容を確認してください。</p></div></div>
+  <div class="hero-actions"><a class="btn btn-primary" href="https://kamatasai.jp/2026/" target="_blank" rel="noopener">かまた祭 公式サイト ↗</a><a class="btn btn-outline" href="https://kamatasai.jp/2026/map/" target="_blank" rel="noopener">フロアマップ・売店 ↗</a><a class="btn btn-outline" href="https://kamatasai.jp/2026/timetable/" target="_blank" rel="noopener">タイムテーブル ↗</a><a class="btn btn-outline" href="https://kamatasai.jp/2026/events/" target="_blank" rel="noopener">イベント一覧 ↗</a></div>
+  <p class="source-note">開催場所：日本工学院 蒲田キャンパス（東京都大田区西蒲田5-23-22）。一般来場者向け駐車場はありません。公共交通機関をご利用ください。</p>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><div><strong>かまた祭ナビ 2026</strong><br>学園祭をもっと楽しく、もっと見つけやすく。</div><div>掲載情報の確認日：2026年10月28日<br><a href="https://kamatasai.jp/2026/" target="_blank" rel="noopener">情報出典：第59回 かまた祭 公式サイト</a></div></div></footer>
+<script>
+const foods = [
+{id:"f1",name:"イケ麺亭",emoji:"🍜",cat:"ご飯・麺類",items:"塩焼きそば",price:500,place:"外売店エリア",desc:"今年で24年目の塩焼きそばのお店。",days:["10/31","11/1"]},
+{id:"f2",name:"油そばねぎし",emoji:"🍜",cat:"ご飯・麺類",items:"油そば",price:500,place:"外売店エリア",desc:"放送芸術科の企画。",days:["10/31","11/1"]},
+{id:"f3",name:"たこ焼き上木家 かまた店",emoji:"🐙",cat:"ご飯・麺類",items:"ソース・醤油・のり塩たこ焼き（3個） / たこせん",price:300,place:"外売店エリア",desc:"たこ焼き各種¥300、たこせん¥200。",days:["10/31","11/1"]},
+{id:"f4",name:"キャマタギョーザ軒",emoji:"🥟",cat:"ご飯・麺類",items:"元祖キャマタ羽付きギョーザ",price:600,place:"外売店エリア",desc:"放送芸術科がつくる羽付き餃子。",days:["10/31","11/1"]},
+{id:"f5",name:"なまはげ直伝きりたんぽ",emoji:"🍢",cat:"ご飯・麺類",items:"きりたんぽ",price:500,place:"外売店エリア",desc:"秋田名物。出汁の鍋・肉巻きなどを紹介。",days:["10/31","11/1"]},
+{id:"f6",name:"サンドして、幸せ。ホットサンド",emoji:"🥪",cat:"ご飯・麺類",items:"カレー / ベーコンチーズ / あんバター 各¥400、オニオンスープ¥300、セット¥600",price:400,place:"3号館12階 学生ラウンジ",desc:"ホットサンドと温かいオニオンスープ。",days:["10/31","11/1"]},
+{id:"f7",name:"MOFFUL’S",emoji:"🧇",cat:"スイーツ",items:"バブルワッフル",price:500,place:"外売店エリア",desc:"チョコ・黒蜜・メープルのソースを楽しめるワッフル。",days:["10/31","11/1"]},
+{id:"f8",name:"DeCo＋ Cafe",emoji:"🍋",cat:"スイーツ",items:"ミスティックレモンスカッシュ¥400 / サブレ各種¥300",price:300,place:"3号館12階 学生ラウンジ",desc:"紫色のレモンスカッシュとプレーン・ゴマサブレ。",days:["10/31","11/1"]},
+{id:"f9",name:"バナナ研究所",emoji:"🍌",cat:"スイーツ",items:"チョコ・ホワイト・いちご・ミルク・抹茶チョコバナナ",price:400,place:"外売店エリア",desc:"5種類のチョコバナナを予定。",days:["10/31","11/1"]},
+{id:"f10",name:"かりじゅわあげぱん",emoji:"🍞",cat:"揚げ物",items:"砂糖あげぱん¥400 / ココア・きなこ¥500",price:400,place:"外売店エリア",desc:"懐かしい給食の味を楽しめる揚げパン。",days:["10/31","11/1"]},
+{id:"f11",name:"情報処理科1-1 チュロス",emoji:"🥨",cat:"揚げ物",items:"チュロス",price:500,place:"外売店エリア",desc:"情報処理科1年1組の学生が販売。",days:["10/31","11/1"]},
+{id:"f12",name:"たこ焼き先生",emoji:"🐙",cat:"ご飯・麺類",items:"たこ焼き",price:400,place:"外売店エリア",desc:"定番のソースとマヨネーズ。",days:["10/31","11/1"]},
+{id:"f13",name:"かまトゥカフェ",emoji:"☕",cat:"飲み物",items:"カフェラテ・ブラックコーヒー・かまトゥ塩ぱん・クリームパン（価格未定）",price:null,place:"1号館1階 FOODS FUU2",desc:"5周年企画。リサイクル麻袋のワークショップ等も紹介。",days:["10/31","11/1"]},
+{id:"f14",name:"工作ワークショップ",emoji:"🎨",cat:"その他",items:"粘土カップアイス・アイロンビーズ体験（無料）",price:0,place:"3号館12階 学生ラウンジ",desc:"子ども向けの工作体験。公式サイトでは無料と掲載。",days:["10/31","11/1"]},
+{id:"f15",name:"手芸同好会",emoji:"🧶",cat:"その他",items:"もふもふねこのキーホルダー¥1,000 / ヘアアクセサリー¥200〜500 など",price:200,place:"3号館12階 学生ラウンジ",desc:"ハンドメイド作品の展示・販売とアイロンビーズ体験。",days:["10/31","11/1"]},
+{id:"f16",name:"ボードゲームカフェ",emoji:"🎲",cat:"その他",items:"30種類以上のボードゲームを試遊",price:null,place:"3号館12階 学生ラウンジ",desc:"初めての人も部員がサポート。小学生以下は保護者同伴。",days:["10/31","11/1"]}
+];
+const events = [
+{id:"e1",name:"お笑いライブ in 蒲田 2026",emoji:"😂",cat:"ステージ",days:["10/31"],time:"開場15:15 / 開演16:00",place:"3号館地下1階 片柳記念ホール",desc:"ジェラードン、ツートライブ、そいつどいつ、世間知らズが出演。"},
+{id:"e2",name:"TRICK OR TREAT",emoji:"🎃",cat:"特別企画",days:["10/31","11/1"],time:"開催時間は公式サイトで確認",place:"校内全体",desc:"クイズのTRICKコース、スタンプのTREATコース。参加するとお菓子がもらえる企画。"},
+{id:"e3",name:"学科体験〜工学院を知ろう！〜",emoji:"🧪",cat:"体験",days:["10/31","11/1"],time:"10/31 10:00–17:00 / 11/1 10:00–16:00",place:"日本工学院アリーナ B4",desc:"学校や学科について体験できる企画。"},
+{id:"e4",name:"ミニゲームブース",emoji:"🕹️",cat:"交流",days:["10/31","11/1"],time:"10/31 10:15–17:00 / 11/1 10:15–16:00",place:"日本工学院アリーナ B4",desc:"気軽に楽しめるミニゲーム企画。"},
+{id:"e5",name:"未来を動かす、AIのチカラ",emoji:"🤖",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館6階 30616・30617",desc:"日本工学院 AIシステム科の企画。"},
+{id:"e6",name:"IoTものづくり体験",emoji:"💡",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館7階 30705",desc:"ITスペシャリスト科のものづくり体験。"},
+{id:"e7",name:"aiboパーク",emoji:"🐶",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館7階 30719",desc:"aiboに関する体験・展示企画。"},
+{id:"e8",name:"セキュリティ謎解きチャレンジ！",emoji:"🔐",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館7階 30714",desc:"ネットワークセキュリティ科の謎解き企画。"},
+{id:"e9",name:"ドローン操作体験",emoji:"🚁",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館7階 30717",desc:"ドローン操作を体験できる企画。"},
+{id:"e10",name:"モーションキャプチャー体験会",emoji:"🕺",cat:"体験",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館8階 30814・30815",desc:"CG映像科の体験企画。"},
+{id:"e11",name:"ゲーム作品展示",emoji:"🎮",cat:"展示",days:["10/31","11/1"],time:"詳細時間は公式サイトで確認",place:"3号館8階 30805・30806",desc:"ゲームクリエイター科の学生作品を展示。"},
+{id:"e12",name:"留学生ワークショップ",emoji:"🌏",cat:"交流",days:["11/1"],time:"詳細時間は公式サイトで確認",place:"3号館12階 国際交流サロン",desc:"日本語学校の交流企画。"},
+{id:"e13",name:"屋上ツアー",emoji:"🏙️",cat:"特別企画",days:["10/31","11/1"],time:"10/31 12:00–16:00 / 11/1 10:30–15:00",place:"大学側 31016",desc:"公式タイムテーブルに掲載された屋上ツアー。"},
+{id:"e14",name:"かまた祭2026 LT会",emoji:"🎤",cat:"ステージ",days:["10/31"],time:"13:15–14:50",place:"3号館7階 30720教室",desc:"ITスペシャリスト科による、1人5分のライトニングトーク大会。"}
+];
+const state={page:"home",day:"all",saved:JSON.parse(localStorage.getItem("kamataSaved2026")||"[]")};
+function persist(){localStorage.setItem("kamataSaved2026",JSON.stringify(state.saved));document.getElementById("savedCount").textContent=state.saved.length}
+function page(name){state.page=name;document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id===name));document.querySelectorAll("[data-page]").forEach(x=>x.classList.toggle("active",x.dataset.page===name));document.getElementById("officialLinks").classList.toggle("hidden",name==="plan");window.scrollTo({top:0,behavior:"smooth"});if(name==="plan")renderSaved()}
+document.querySelectorAll("[data-page]").forEach(b=>b.addEventListener("click",()=>page(b.dataset.page)));
+function isSaved(id){return state.saved.includes(id)}
+function toggleSave(id){state.saved=isSaved(id)?state.saved.filter(x=>x!==id):[...state.saved,id];persist();renderFood();renderEvents();renderSaved();renderFeatured()}
+function heart(id){return `<button class="heart ${isSaved(id)?"saved":""}" aria-label="お気に入り" onclick="toggleSave('${id}')">${isSaved(id)?"♥ 保存済み":"♡ 保存する"}</button>`}
+function foodCard(f){return `<article class="card"><div class="card-top"><div class="emoji">${f.emoji}</div><span class="tag food">${f.cat}</span></div><h3>${f.name}</h3><p>${f.desc}</p><div class="meta"><span>🍽 ${f.items}</span><span>📍 ${f.place}</span><span>💴 ${f.price===null?"価格未定":f.price===0?"無料":"¥"+f.price+"〜"}</span></div><div class="card-actions">${heart(f.id)}<button class="btn btn-soft" onclick="copyItem('${f.id}')">メモ</button></div></article>`}
+function eventCard(e){return `<article class="card"><div class="card-top"><div class="emoji">${e.emoji}</div><span class="tag event">${e.cat}</span></div><h3>${e.name}</h3><p>${e.desc}</p><div class="meta"><span>📅 ${e.days.join(" / ")}</span><span>🕒 ${e.time}</span><span>📍 ${e.place}</span></div><div class="card-actions">${heart(e.id)}<button class="btn btn-soft" onclick="copyItem('${e.id}')">メモ</button></div></article>`}
+function renderFood(){let q=(document.getElementById("foodSearch")?.value||"").toLowerCase();let cat=document.getElementById("foodCategory")?.value||"all";let budget=document.getElementById("foodBudget")?.value||"all";let list=foods.filter(f=>(cat==="all"||f.cat===cat)&&(`${f.name} ${f.items} ${f.place} ${f.desc}`.toLowerCase().includes(q))&&(budget==="all"||(f.price!==null&&f.price<=Number(budget))));document.getElementById("foodGrid").innerHTML=list.length?list.map(foodCard).join(""):`<div class="empty">条件に合う売店が見つかりませんでした。検索語や予算を変えてみてください。</div>`;document.getElementById("foodCount").textContent=`${list.length} 件を表示`}
+function renderEvents(){let q=(document.getElementById("eventSearch")?.value||"").toLowerCase();let cat=document.getElementById("eventCategory")?.value||"all";let list=events.filter(e=>(state.day==="all"||e.days.includes(state.day))&&(cat==="all"||e.cat===cat)&&(`${e.name} ${e.desc} ${e.place} ${e.time}`.toLowerCase().includes(q)));document.getElementById("eventGrid").innerHTML=list.length?list.map(eventCard).join(""):`<div class="empty">条件に合うイベントが見つかりませんでした。日付や検索条件を変えてください。</div>`;document.getElementById("eventCount").textContent=`${list.length} 件を表示`}
+function renderFeatured(){document.getElementById("featuredEvents").innerHTML=events.slice(0,3).map(eventCard).join("");document.getElementById("featuredFood").innerHTML=[foods[0],foods[7],foods[13]].map(foodCard).join("")}
+function renderSaved(){let all=[...foods,...events].filter(x=>state.saved.includes(x.id));document.getElementById("savedGrid").innerHTML=all.map(x=>x.cat?foodCard(x):eventCard(x)).join("");document.getElementById("noSaved").classList.toggle("hidden",all.length>0)}
+function copyItem(id){let item=[...foods,...events].find(x=>x.id===id);if(!item)return;let s=`${item.name}\n${item.place}\n${item.items||item.time}\n${item.days.join(" / ")}`;if(navigator.clipboard){navigator.clipboard.writeText(s).then(()=>alert("企画メモをコピーしました。"));}else{prompt("この企画をメモできます",s)}}
+["foodSearch","foodCategory","foodBudget"].forEach(id=>document.getElementById(id).addEventListener(id==="foodSearch"?"input":"change",renderFood));
+["eventSearch","eventCategory"].forEach(id=>document.getElementById(id).addEventListener(id==="eventSearch"?"input":"change",renderEvents));
+document.querySelectorAll("[data-day]").forEach(b=>b.addEventListener("click",()=>{state.day=b.dataset.day;document.querySelectorAll("[data-day]").forEach(x=>x.classList.toggle("active",x===b));renderEvents()}));
+document.getElementById("clearSaved").addEventListener("click",()=>{if(confirm("保存した企画をすべて削除しますか？")){state.saved=[];persist();renderSaved();renderFood();renderEvents();renderFeatured()}});
+document.querySelectorAll("#checklist input").forEach(c=>c.addEventListener("change",()=>{let all=[...document.querySelectorAll("#checklist input")],n=all.filter(x=>x.checked).length;document.getElementById("progressBar").style.width=(n/all.length*100)+"%";document.getElementById("progressText").textContent=`${n} / ${all.length} 完了`}));
+persist();renderFood();renderEvents();renderFeatured();renderSaved();
+</script>
+</body>
+</html>
